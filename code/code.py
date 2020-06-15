@@ -55,6 +55,7 @@ extension_lang_map = {
     "js": "javascript",
     "ts": "typescript",
     "r": "r",
+    "scala": "scala"
 }
 
 # flag indicates whether or not the title tracking is enabled
