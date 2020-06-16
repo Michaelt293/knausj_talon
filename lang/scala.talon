@@ -41,3 +41,4 @@ if expression:
   edit.left()
   edit.left()
   edit.left()
+assign: " = "
