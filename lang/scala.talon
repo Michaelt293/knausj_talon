@@ -26,7 +26,18 @@ has type: ": "
 op subtype: " <: "
 op tag with: " @@ "
 op equals: " == "
-has type: ": "
+op not equals: " != "
+drawn from: " <- "
+for comprehension:
+  insert("for {} yield ")
+  edit.left()
+  edit.left()
+  edit.left()
+  edit.left()
+  edit.left()
+  edit.left()
+  edit.left()
+  edit.left()
 # unit: "()"
 print line: "println"
 contract: "concat"
