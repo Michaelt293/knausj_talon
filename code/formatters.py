@@ -167,7 +167,7 @@ formatters_words = {
     "smash": formatters_dict["NO_SPACES"],
     "snake": formatters_dict["SNAKE_CASE"],
     # "speak": formatters_dict["NOOP"],
-    "string": formatters_dict["SINGLE_QUOTED_STRING"],
+    # "string": formatters_dict["SINGLE_QUOTED_STRING"],
     "title": formatters_dict["CAPITALIZE_ALL_WORDS"],
     # disable a few formatters for now
     # "tree": formatters_dict["FIRST_THREE"],
@@ -294,7 +294,7 @@ class Actions:
 
 ctx.lists["self.formatters"] = formatters_words.keys()
 ctx.lists["self.prose_formatter"] = {
-    "say": "NOOP", "speak": "NOOP",
+    "say": "ALL_LOWERCASE", "speak": "NOOP",
     "sentence": "CAPITALIZE_FIRST_WORD",
 }
 

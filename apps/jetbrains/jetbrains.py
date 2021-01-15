@@ -154,7 +154,7 @@ app: jetbrains
 @ctx.action_class("win")
 class win_actions:
     def file_ext():
-        return actions.win.title().split(".")[-1]
+        return actions.win.title().split(".")[-1].split(" ")[0]
 
 
 @ctx.action_class("edit")

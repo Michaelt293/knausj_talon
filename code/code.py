@@ -49,6 +49,7 @@ extension_lang_map = {
     "r": "r",
     "rb": "ruby",
     "s": "assembly",
+    "scala": "scala",
     "sh": "bash",
     "snippets": "snippets",
     "talon": "talon",
